@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+<listener class-name="Supermarket.Reportlisteners"></listener>
+</listeners>
+ <test name="LoginTestCase">
+ <classes>
+<class name="com.supermartket.test.LoginTestCase">
+ </class>
+ </classes>
+ </test>
+ 
+ <test name="CreateDeliveryBoy">
+ <classes>
+<class name="com.supermartket.test.CreateDeliveryBoy">
+ </class>
+ </classes>
+ </test>
+    
+       <test name="categoryMain">
+ <classes>
+ <class name="com.supermartket.test.categoryMain">
+ </class>
+ </classes>
+ </test>
+      
+     
+      <test name="CreatNewsTest">
+ <classes>
+ <class name="com.supermartket.test.CreatNewsTest">
+ </class>
+ </classes>
+ </test>
+      
+     
+ <test name="AddUsers">
+ <classes>
+      <class name="com.supermartket.test.AddUsers">
+ </class>
+ </classes>
+ </test>
+      
+     
+    
+
+</suite> 
