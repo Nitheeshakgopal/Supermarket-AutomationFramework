@@ -1,4 +1,4 @@
-package com.supermartket.test;
+package supermarketframework;
 
 import org.testng.annotations.Test;
 

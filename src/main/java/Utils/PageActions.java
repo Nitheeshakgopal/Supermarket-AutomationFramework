@@ -39,7 +39,7 @@ public class PageActions {
 	@FindBy(css = ".btn-rounded.btn-danger")
 	protected WebElement newBtn;
 	
-	@FindBy(xpath = "//*[@class='alert alert-danger alert-dismissible']")
+	@FindBy(xpath = "//*[@class='alert alert-success alert-dismissible']   ")
 	protected WebElement alertMsg;
 	
 	@FindBy(css = "[name='Create']")

@@ -39,7 +39,7 @@ public class ManageOfferCodePage extends PageActions {
 	@FindBy(id="main_img")
 	WebElement imageupload;
 	
-	@FindBy(xpath="//*[@id='form']/div/div[3]/button")
+	@FindBy(xpath="//*[@name='create']")
 	WebElement saveBtn;
 	  
 	
@@ -49,9 +49,11 @@ public class ManageOfferCodePage extends PageActions {
 	 clickElement(orderuserBtn);
 	 setTextBox( percentageBtn,"80%");
 	 setTextBox( amountBtn,"1000");
-	 scrollToBottomofPage();
 	 setTextBox( description,"Descriptions");
 	 uploadImage(imageupload,Constants.IMAGEFILE);
+	 scrollToBottomofPage();
+	 shortWait();
+	 scrollToBottomofPage();
 	 shortWait();
 	 clickElement(saveBtn);
  }
