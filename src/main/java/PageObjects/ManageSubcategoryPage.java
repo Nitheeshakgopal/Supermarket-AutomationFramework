@@ -41,8 +41,7 @@ public class ManageSubcategoryPage extends PageActions {
 		 scrollToBottomofPage();
 		 shortWait();
 		 clickElement(saveBtn);
-		 String alertText = alertMsg.getText();
-		 System.out.println(alertText);
+		 
 	}
 	
 	

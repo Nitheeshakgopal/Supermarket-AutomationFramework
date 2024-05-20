@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-20T19:27:54 AEST" name="Default suite" finished-at="2024-05-20T19:28:12 AEST" duration-ms="17805">
+  <suite started-at="2024-05-20T20:48:35 AEST" name="Default suite" finished-at="2024-05-20T20:48:50 AEST" duration-ms="15140">
     <groups>
     </groups>
-    <test started-at="2024-05-20T19:27:54 AEST" name="Default test" finished-at="2024-05-20T19:28:12 AEST" duration-ms="17805">
-      <class name="com.supermartket.test.ManageOfferCode">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageOfferCode@6b927fb]" started-at="2024-05-20T19:27:54 AEST" name="initialization" finished-at="2024-05-20T19:27:59 AEST" duration-ms="4616" status="PASS">
+    <test started-at="2024-05-20T20:48:35 AEST" name="Default test" finished-at="2024-05-20T20:48:50 AEST" duration-ms="15140">
+      <class name="com.supermartket.test.ManageSubcategory">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageSubcategory@6b927fb]" started-at="2024-05-20T20:48:35 AEST" name="initialization" finished-at="2024-05-20T20:48:38 AEST" duration-ms="3679" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,15 +16,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyMaanageOffercodePage()[pri:0, instance:com.supermartket.test.ManageOfferCode@6b927fb]" started-at="2024-05-20T19:27:59 AEST" name="verifyMaanageOffercodePage" finished-at="2024-05-20T19:28:12 AEST" duration-ms="12886" status="PASS">
+        <test-method signature="verifyManageSubcategory()[pri:0, instance:com.supermartket.test.ManageSubcategory@6b927fb]" started-at="2024-05-20T20:48:38 AEST" name="verifyManageSubcategory" finished-at="2024-05-20T20:48:49 AEST" duration-ms="11146" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMaanageOffercodePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageOfferCode@6b927fb]" started-at="2024-05-20T19:28:12 AEST" name="tearDown" finished-at="2024-05-20T19:28:12 AEST" duration-ms="257" status="PASS">
+        </test-method> <!-- verifyManageSubcategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageSubcategory@6b927fb]" started-at="2024-05-20T20:48:49 AEST" name="tearDown" finished-at="2024-05-20T20:48:50 AEST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.ManageOfferCode -->
+      </class> <!-- com.supermartket.test.ManageSubcategory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

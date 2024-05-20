@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="4" parallel="tests" name="ManageExpense(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.ManageExpense">
-        <methods>
-          <include name="initialization"/>
-          <include name="verifyLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.supermartket.test.ManageExpense -->
-    </classes>
-  </test> <!-- ManageExpense(failed) -->
-  <test thread-count="4" parallel="tests" name="CreatNewsTest(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.CreatNewsTest">
-        <methods>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-          <include name="createNews"/>
-        </methods>
-      </class> <!-- com.supermartket.test.CreatNewsTest -->
-    </classes>
-  </test> <!-- CreatNewsTest(failed) -->
   <test thread-count="4" parallel="tests" name="AddExpense(failed)" verbose="0">
     <classes>
       <class name="com.supermartket.test.AddExpense">
@@ -34,70 +12,4 @@
       </class> <!-- com.supermartket.test.AddExpense -->
     </classes>
   </test> <!-- AddExpense(failed) -->
-  <test thread-count="4" parallel="tests" name="ManagePage(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.ManagePage">
-        <methods>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-          <include name="verifyManagePage"/>
-        </methods>
-      </class> <!-- com.supermartket.test.ManagePage -->
-    </classes>
-  </test> <!-- ManagePage(failed) -->
-  <test thread-count="4" parallel="tests" name="CreateDeliveryBoy(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.CreateDeliveryBoy">
-        <methods>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-          <include name="verifyUserIsAbleToCreateMultipleDeliveryBoys" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- com.supermartket.test.CreateDeliveryBoy -->
-    </classes>
-  </test> <!-- CreateDeliveryBoy(failed) -->
-  <test thread-count="4" parallel="tests" name="ManagePayment(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.ManagePayment">
-        <methods>
-          <include name="initialization"/>
-          <include name="managePaymentVerification"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.supermartket.test.ManagePayment -->
-    </classes>
-  </test> <!-- ManagePayment(failed) -->
-  <test thread-count="4" parallel="tests" name="MobileSlider(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.MobileSlider">
-        <methods>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-          <include name="verifyMobileSlider"/>
-        </methods>
-      </class> <!-- com.supermartket.test.MobileSlider -->
-    </classes>
-  </test> <!-- MobileSlider(failed) -->
-  <test thread-count="4" parallel="tests" name="AddUsers(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.AddUsers">
-        <methods>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-          <include name="myadminTest"/>
-        </methods>
-      </class> <!-- com.supermartket.test.AddUsers -->
-    </classes>
-  </test> <!-- AddUsers(failed) -->
-  <test thread-count="4" parallel="tests" name="PushNotification(failed)" verbose="0">
-    <classes>
-      <class name="com.supermartket.test.PushNotification">
-        <methods>
-          <include name="managePaymentVerification"/>
-          <include name="initialization"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.supermartket.test.PushNotification -->
-    </classes>
-  </test> <!-- PushNotification(failed) -->
 </suite> <!-- Failed suite [Suite] -->

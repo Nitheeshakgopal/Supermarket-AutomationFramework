@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="3" failed="9" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-20T17:52:47 AEST" name="Suite" finished-at="2024-05-20T17:53:42 AEST" duration-ms="54521">
+  <suite started-at="2024-05-20T20:51:02 AEST" name="Suite" finished-at="2024-05-20T20:51:32 AEST" duration-ms="30894">
     <groups>
       <group name="sanity">
         <method signature="LoginTestCase.manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" name="manageExpense" class="com.supermartket.test.LoginTestCase"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-05-20T17:52:47 AEST" name="LoginTestCase" finished-at="2024-05-20T17:53:00 AEST" duration-ms="13197">
+    <test started-at="2024-05-20T20:51:02 AEST" name="LoginTestCase" finished-at="2024-05-20T20:51:08 AEST" duration-ms="6678">
       <class name="com.supermartket.test.LoginTestCase">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T17:52:47 AEST" name="initialization" finished-at="2024-05-20T17:52:55 AEST" duration-ms="8051" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:06 AEST" duration-ms="4907" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -19,19 +19,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T17:52:55 AEST" name="manageExpense" finished-at="2024-05-20T17:52:59 AEST" duration-ms="3685" status="PASS">
+        <test-method signature="manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:06 AEST" name="manageExpense" finished-at="2024-05-20T20:51:08 AEST" duration-ms="1500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- manageExpense -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T17:52:59 AEST" name="tearDown" finished-at="2024-05-20T17:53:00 AEST" duration-ms="1337" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:08 AEST" name="tearDown" finished-at="2024-05-20T20:51:08 AEST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.LoginTestCase -->
     </test> <!-- LoginTestCase -->
-    <test started-at="2024-05-20T17:52:47 AEST" name="ManageExpense" finished-at="2024-05-20T17:53:08 AEST" duration-ms="20594">
-      <class name="com.supermartket.test.ManageExpense">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageExpense@9f116cc]" started-at="2024-05-20T17:52:47 AEST" name="initialization" finished-at="2024-05-20T17:52:57 AEST" duration-ms="9531" status="PASS">
+    <test started-at="2024-05-20T20:51:02 AEST" name="ManageSubcategory" finished-at="2024-05-20T20:51:19 AEST" duration-ms="17332">
+      <class name="supermarketframework.ManageSubcategory">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:05 AEST" duration-ms="3713" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -40,88 +40,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.supermartket.test.ManageExpense@9f116cc]" started-at="2024-05-20T17:52:57 AEST" name="verifyLogin" finished-at="2024-05-20T17:53:04 AEST" duration-ms="7516" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Manage Expense')])[1]"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3848e7dcf14e9defe204e2741b38c67f, findElement {value=(//*[contains(text(),'Manage Expense')])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59149/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3848e7dcf14e9defe204e2741b38c67f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Manage Expense')])[1]"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3848e7dcf14e9defe204e2741b38c67f, findElement {value=(//*[contains(text(),'Manage Expense')])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59149/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3848e7dcf14e9defe204e2741b38c67f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at Utils.PageActions.clickElement(PageActions.java:50)
-at PageObjects.HomePage.navigateToExpenseCategory(HomePage.java:98)
-at com.supermartket.test.ManageExpense.verifyLogin(ManageExpense.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="verifyManageSubcategory()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:05 AEST" name="verifyManageSubcategory" finished-at="2024-05-20T20:51:19 AEST" duration-ms="13319" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageExpense@9f116cc]" started-at="2024-05-20T17:53:04 AEST" name="tearDown" finished-at="2024-05-20T17:53:08 AEST" duration-ms="3421" status="PASS">
+        </test-method> <!-- verifyManageSubcategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:19 AEST" name="tearDown" finished-at="2024-05-20T20:51:19 AEST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.ManageExpense -->
-    </test> <!-- ManageExpense -->
-    <test started-at="2024-05-20T17:52:47 AEST" name="categoryMain" finished-at="2024-05-20T17:53:09 AEST" duration-ms="22194">
-      <class name="com.supermartket.test.categoryMain">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.categoryMain@7b9a4292]" started-at="2024-05-20T17:52:47 AEST" name="initialization" finished-at="2024-05-20T17:52:57 AEST" duration-ms="9119" status="PASS">
+      </class> <!-- supermarketframework.ManageSubcategory -->
+    </test> <!-- ManageSubcategory -->
+    <test started-at="2024-05-20T20:51:02 AEST" name="ManageOfferCode" finished-at="2024-05-20T20:51:20 AEST" duration-ms="18678">
+      <class name="supermarketframework.ManageOfferCode">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:07 AEST" duration-ms="5048" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -130,280 +61,19 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verfityCategoryMainPage()[pri:0, instance:com.supermartket.test.categoryMain@7b9a4292]" started-at="2024-05-20T17:52:57 AEST" name="verfityCategoryMainPage" finished-at="2024-05-20T17:53:09 AEST" duration-ms="12087" status="PASS">
+        <test-method signature="verifyMaanageOffercodePage()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:07 AEST" name="verifyMaanageOffercodePage" finished-at="2024-05-20T20:51:20 AEST" duration-ms="13362" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verfityCategoryMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.categoryMain@7b9a4292]" started-at="2024-05-20T17:53:09 AEST" name="tearDown" finished-at="2024-05-20T17:53:09 AEST" duration-ms="906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.categoryMain -->
-    </test> <!-- categoryMain -->
-    <test started-at="2024-05-20T17:53:01 AEST" name="CreatNewsTest" finished-at="2024-05-20T17:53:16 AEST" duration-ms="15492">
-      <class name="com.supermartket.test.CreatNewsTest">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreatNewsTest@5b239d7d]" started-at="2024-05-20T17:53:01 AEST" name="initialization" finished-at="2024-05-20T17:53:09 AEST" duration-ms="7819" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="createNews()[pri:0, instance:com.supermartket.test.CreatNewsTest@5b239d7d]" started-at="2024-05-20T17:53:09 AEST" name="createNews" finished-at="2024-05-20T17:53:15 AEST" duration-ms="6631" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-at PageObjects.NewsPage.validateNewsIsCreated(NewsPage.java:33)
-at com.supermartket.test.CreatNewsTest.createNews(CreatNewsTest.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNews -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreatNewsTest@5b239d7d]" started-at="2024-05-20T17:53:15 AEST" name="tearDown" finished-at="2024-05-20T17:53:16 AEST" duration-ms="1033" status="PASS">
+        </test-method> <!-- verifyMaanageOffercodePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:20 AEST" name="tearDown" finished-at="2024-05-20T20:51:20 AEST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.CreatNewsTest -->
-    </test> <!-- CreatNewsTest -->
-    <test started-at="2024-05-20T17:53:08 AEST" name="AddExpense" finished-at="2024-05-20T17:53:22 AEST" duration-ms="14328">
-      <class name="com.supermartket.test.AddExpense">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.AddExpense@37afeb11]" started-at="2024-05-20T17:53:08 AEST" name="initialization" finished-at="2024-05-20T17:53:14 AEST" duration-ms="5665" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="verufyUserIsAbleToAddExpense()[pri:0, instance:com.supermartket.test.AddExpense@37afeb11]" started-at="2024-05-20T17:53:14 AEST" name="verufyUserIsAbleToAddExpense" finished-at="2024-05-20T17:53:22 AEST" duration-ms="8498" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f27f0ecd03468fd8aed255f888bf9d5c, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59302/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f27f0ecd03468fd8aed255f888bf9d5c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f27f0ecd03468fd8aed255f888bf9d5c, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59302/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f27f0ecd03468fd8aed255f888bf9d5c
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-at Utils.PageActions.setTextBox(PageActions.java:54)
-at PageObjects.LoginPage.login(LoginPage.java:36)
-at com.supermartket.test.AddExpense.verufyUserIsAbleToAddExpense(AddExpense.java:13)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verufyUserIsAbleToAddExpense -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.AddExpense@37afeb11]" started-at="2024-05-20T17:53:22 AEST" name="tearDown" finished-at="2024-05-20T17:53:22 AEST" duration-ms="161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.AddExpense -->
-    </test> <!-- AddExpense -->
-    <test started-at="2024-05-20T17:53:10 AEST" name="ManagePage" finished-at="2024-05-20T17:53:24 AEST" duration-ms="14941">
-      <class name="com.supermartket.test.ManagePage">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManagePage@222545dc]" started-at="2024-05-20T17:53:10 AEST" name="initialization" finished-at="2024-05-20T17:53:16 AEST" duration-ms="6511" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="verifyManagePage()[pri:0, instance:com.supermartket.test.ManagePage@222545dc]" started-at="2024-05-20T17:53:16 AEST" name="verifyManagePage" finished-at="2024-05-20T17:53:24 AEST" duration-ms="8293" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a688a7652d735158c0b482456ae8633d, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59336/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a688a7652d735158c0b482456ae8633d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a688a7652d735158c0b482456ae8633d, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59336/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a688a7652d735158c0b482456ae8633d
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-at Utils.PageActions.setTextBox(PageActions.java:54)
-at PageObjects.LoginPage.login(LoginPage.java:36)
-at com.supermartket.test.ManagePage.verifyManagePage(ManagePage.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyManagePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManagePage@222545dc]" started-at="2024-05-20T17:53:24 AEST" name="tearDown" finished-at="2024-05-20T17:53:24 AEST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.ManagePage -->
-    </test> <!-- ManagePage -->
-    <test started-at="2024-05-20T17:52:47 AEST" name="CreateDeliveryBoy" finished-at="2024-05-20T17:53:25 AEST" duration-ms="38077">
+      </class> <!-- supermarketframework.ManageOfferCode -->
+    </test> <!-- ManageOfferCode -->
+    <test started-at="2024-05-20T20:51:02 AEST" name="CreateDeliveryBoy" finished-at="2024-05-20T20:51:22 AEST" duration-ms="20248">
       <class name="com.supermartket.test.CreateDeliveryBoy">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:52:47 AEST" name="initialization" finished-at="2024-05-20T17:52:56 AEST" duration-ms="8983" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:08 AEST" duration-ms="5923" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -412,32 +82,32 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:52:56 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T17:53:05 AEST" duration-ms="8305" status="PASS">
+        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:08 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T20:51:12 AEST" duration-ms="4813" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Obsqura20240520_175247]]>
+                <![CDATA[Obsqura20240520_205102]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Obsqura20240520_1752471130.1385470859284]]>
+                <![CDATA[Obsqura20240520_205102620.2107980001582]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[mypassword20240520_175247]]>
+                <![CDATA[mypassword20240520_205102]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToCreateMultipleDeliveryBoys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:53:05 AEST" name="tearDown" finished-at="2024-05-20T17:53:10 AEST" duration-ms="5013" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:12 AEST" name="tearDown" finished-at="2024-05-20T20:51:13 AEST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:53:10 AEST" name="initialization" finished-at="2024-05-20T17:53:17 AEST" duration-ms="7186" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:13 AEST" name="initialization" finished-at="2024-05-20T20:51:16 AEST" duration-ms="3285" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -446,111 +116,36 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:53:17 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T17:53:25 AEST" duration-ms="8301" status="FAIL">
+        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:16 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T20:51:21 AEST" duration-ms="5608" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Obsqura20240520_175247]]>
+                <![CDATA[Obsqura20240520_205102]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Niteesha84330.62454958091]]>
+                <![CDATA[Niteesha43616.91818465312]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[mypassword20240520_175247]]>
+                <![CDATA[mypassword20240520_205102]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6c110a5d751fa5c3bb9faadc1db6049, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6c110a5d751fa5c3bb9faadc1db6049]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6c110a5d751fa5c3bb9faadc1db6049, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6c110a5d751fa5c3bb9faadc1db6049
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-at Utils.PageActions.setTextBox(PageActions.java:54)
-at PageObjects.LoginPage.login(LoginPage.java:36)
-at com.supermartket.test.CreateDeliveryBoy.verifyUserIsAbleToCreateMultipleDeliveryBoys(CreateDeliveryBoy.java:13)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToCreateMultipleDeliveryBoys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T17:53:25 AEST" name="tearDown" finished-at="2024-05-20T17:53:25 AEST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:21 AEST" name="tearDown" finished-at="2024-05-20T20:51:22 AEST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.CreateDeliveryBoy -->
     </test> <!-- CreateDeliveryBoy -->
-    <test started-at="2024-05-20T17:53:16 AEST" name="ManagePayment" finished-at="2024-05-20T17:53:30 AEST" duration-ms="13719">
-      <class name="com.supermartket.test.ManagePayment">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManagePayment@436813f3]" started-at="2024-05-20T17:53:16 AEST" name="initialization" finished-at="2024-05-20T17:53:21 AEST" duration-ms="4423" status="PASS">
+    <test started-at="2024-05-20T20:51:08 AEST" name="manageOrderPage" finished-at="2024-05-20T20:51:22 AEST" duration-ms="13778">
+      <class name="com.supermartket.test.manageOrderPage">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:08 AEST" name="initialization" finished-at="2024-05-20T20:51:11 AEST" duration-ms="3043" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -559,94 +154,19 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="managePaymentVerification()[pri:0, instance:com.supermartket.test.ManagePayment@436813f3]" started-at="2024-05-20T17:53:21 AEST" name="managePaymentVerification" finished-at="2024-05-20T17:53:29 AEST" duration-ms="8444" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9056a094aa4c40c14c73d3efc24afe, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59369/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9056a094aa4c40c14c73d3efc24afe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9056a094aa4c40c14c73d3efc24afe, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59369/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9056a094aa4c40c14c73d3efc24afe
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-at Utils.PageActions.setTextBox(PageActions.java:54)
-at PageObjects.LoginPage.login(LoginPage.java:36)
-at com.supermartket.test.ManagePayment.managePaymentVerification(ManagePayment.java:10)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="verifyManageOrderPage()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:11 AEST" name="verifyManageOrderPage" finished-at="2024-05-20T20:51:22 AEST" duration-ms="10381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- managePaymentVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManagePayment@436813f3]" started-at="2024-05-20T17:53:29 AEST" name="tearDown" finished-at="2024-05-20T17:53:30 AEST" duration-ms="847" status="PASS">
+        </test-method> <!-- verifyManageOrderPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:22 AEST" name="tearDown" finished-at="2024-05-20T20:51:22 AEST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.ManagePayment -->
-    </test> <!-- ManagePayment -->
-    <test started-at="2024-05-20T17:53:22 AEST" name="MobileSlider" finished-at="2024-05-20T17:53:39 AEST" duration-ms="16286">
-      <class name="com.supermartket.test.MobileSlider">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.MobileSlider@77847718]" started-at="2024-05-20T17:53:22 AEST" name="initialization" finished-at="2024-05-20T17:53:26 AEST" duration-ms="3817" status="PASS">
+      </class> <!-- com.supermartket.test.manageOrderPage -->
+    </test> <!-- manageOrderPage -->
+    <test started-at="2024-05-20T20:51:20 AEST" name="AddUsers" finished-at="2024-05-20T20:51:28 AEST" duration-ms="8247">
+      <class name="supermarketframework.AddUsers">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:20 AEST" name="initialization" finished-at="2024-05-20T20:51:24 AEST" duration-ms="3667" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -655,158 +175,19 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyMobileSlider()[pri:0, instance:com.supermartket.test.MobileSlider@77847718]" started-at="2024-05-20T17:53:26 AEST" name="verifyMobileSlider" finished-at="2024-05-20T17:53:38 AEST" duration-ms="12082" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[name='cat_id']"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [783c27a7c7974994d34b782d562c055c, findElement {value=[name='cat_id'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59394/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 783c27a7c7974994d34b782d562c055c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name='cat_id']"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [783c27a7c7974994d34b782d562c055c, findElement {value=[name='cat_id'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59394/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 783c27a7c7974994d34b782d562c055c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.getTagName(Unknown Source)
-at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
-at Utils.PageActions.handleStaticDropdown(PageActions.java:80)
-at PageObjects.MobileSliderPage.mobileSlider(MobileSliderPage.java:37)
-at com.supermartket.test.MobileSlider.verifyMobileSlider(MobileSlider.java:14)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMobileSlider -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.MobileSlider@77847718]" started-at="2024-05-20T17:53:38 AEST" name="tearDown" finished-at="2024-05-20T17:53:39 AEST" duration-ms="385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.MobileSlider -->
-    </test> <!-- MobileSlider -->
-    <test started-at="2024-05-20T17:53:24 AEST" name="AddUsers" finished-at="2024-05-20T17:53:41 AEST" duration-ms="16368">
-      <class name="com.supermartket.test.AddUsers">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.AddUsers@1623b78d]" started-at="2024-05-20T17:53:24 AEST" name="initialization" finished-at="2024-05-20T17:53:29 AEST" duration-ms="4516" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="myadminTest()[pri:0, instance:com.supermartket.test.AddUsers@1623b78d]" started-at="2024-05-20T17:53:29 AEST" name="myadminTest" finished-at="2024-05-20T17:53:41 AEST" duration-ms="11539" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-at PageObjects.AdminUsersPage.createAdminUsers(AdminUsersPage.java:36)
-at com.supermartket.test.AddUsers.myadminTest(AddUsers.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="myadminTest()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:24 AEST" name="myadminTest" finished-at="2024-05-20T20:51:28 AEST" duration-ms="4382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myadminTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.AddUsers@1623b78d]" started-at="2024-05-20T17:53:41 AEST" name="tearDown" finished-at="2024-05-20T17:53:41 AEST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:28 AEST" name="tearDown" finished-at="2024-05-20T20:51:28 AEST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.AddUsers -->
+      </class> <!-- supermarketframework.AddUsers -->
     </test> <!-- AddUsers -->
-    <test started-at="2024-05-20T17:53:25 AEST" name="PushNotification" finished-at="2024-05-20T17:53:42 AEST" duration-ms="16405">
-      <class name="com.supermartket.test.PushNotification">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.PushNotification@223191a6]" started-at="2024-05-20T17:53:25 AEST" name="initialization" finished-at="2024-05-20T17:53:31 AEST" duration-ms="5944" status="PASS">
+    <test started-at="2024-05-20T20:51:19 AEST" name="ManagePage" finished-at="2024-05-20T20:51:30 AEST" duration-ms="11430">
+      <class name="com.supermartket.test.ManagePage">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:19 AEST" name="initialization" finished-at="2024-05-20T20:51:22 AEST" duration-ms="3476" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -815,90 +196,36 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="managePaymentVerification()[pri:0, instance:com.supermartket.test.PushNotification@223191a6]" started-at="2024-05-20T17:53:31 AEST" name="managePaymentVerification" finished-at="2024-05-20T17:53:42 AEST" duration-ms="10307" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5924da3428bc5ec721371ebdb7e431ae, findElement {value=[id='title'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5924da3428bc5ec721371ebdb7e431ae]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5924da3428bc5ec721371ebdb7e431ae, findElement {value=[id='title'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5924da3428bc5ec721371ebdb7e431ae
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-at Utils.PageActions.setTextBox(PageActions.java:54)
-at PageObjects.PushNotificationPage.navigateToPushnotification(PushNotificationPage.java:35)
-at com.supermartket.test.PushNotification.managePaymentVerification(PushNotification.java:13)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="verifyManagePage()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:22 AEST" name="verifyManagePage" finished-at="2024-05-20T20:51:30 AEST" duration-ms="7770" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- managePaymentVerification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.PushNotification@223191a6]" started-at="2024-05-20T17:53:42 AEST" name="tearDown" finished-at="2024-05-20T17:53:42 AEST" duration-ms="151" status="PASS">
+        </test-method> <!-- verifyManagePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:30 AEST" name="tearDown" finished-at="2024-05-20T20:51:30 AEST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.supermartket.test.PushNotification -->
-    </test> <!-- PushNotification -->
+      </class> <!-- com.supermartket.test.ManagePage -->
+    </test> <!-- ManagePage -->
+    <test started-at="2024-05-20T20:51:22 AEST" name="ManageSliderPage" finished-at="2024-05-20T20:51:32 AEST" duration-ms="10623">
+      <class name="com.supermartket.test.ManageSliderPage">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:22 AEST" name="initialization" finished-at="2024-05-20T20:51:25 AEST" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="manageSliderPage()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:25 AEST" name="manageSliderPage" finished-at="2024-05-20T20:51:32 AEST" duration-ms="6925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageSliderPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:32 AEST" name="tearDown" finished-at="2024-05-20T20:51:32 AEST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.supermartket.test.ManageSliderPage -->
+    </test> <!-- ManageSliderPage -->
   </suite> <!-- Suite -->
 </testng-results>

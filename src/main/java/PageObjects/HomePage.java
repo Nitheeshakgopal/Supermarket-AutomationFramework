@@ -44,7 +44,7 @@ public class HomePage extends PageActions {
 	@FindBy(xpath="//*[@class='nav nav-pills nav-sidebar flex-column']/li[5]/a")
 	WebElement manageContent;
 	
-	@FindBy(xpath="//*[@class='nav nav-pills nav-sidebar flex-column']//li[7]/ul[1]/li/a/p")
+	@FindBy(xpath="//*[@class='nav nav-pills nav-sidebar flex-column']//li[5]/ul[1]/li/a/p")
 	WebElement managePage;
 	
 	@FindBy(xpath="//*[contains(text(),'Manage News')]")

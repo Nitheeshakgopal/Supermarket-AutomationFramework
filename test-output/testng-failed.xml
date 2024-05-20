@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.supermartket.test.ManageOfferCode">
+      <class name="com.supermartket.test.ManagePage">
         <methods>
           <include name="initialization"/>
           <include name="tearDown"/>
-          <include name="verifyMaanageOffercodePage"/>
+          <include name="verifyManagePage"/>
         </methods>
-      </class> <!-- com.supermartket.test.ManageOfferCode -->
+      </class> <!-- com.supermartket.test.ManagePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

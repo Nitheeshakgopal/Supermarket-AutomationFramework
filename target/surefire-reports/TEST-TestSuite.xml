@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.556" tests="12" errors="0" skipped="0" failures="9">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.575" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\java\jdk-17.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\sreek\AppData\Local\Temp\surefire17930037614506862429\surefirebooter-20240520175246480_3.jar C:\Users\sreek\AppData\Local\Temp\surefire17930037614506862429 2024-05-20T17-52-46_198-jvmRun1 surefire-20240520175246480_1tmp surefire_0-20240520175246480_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sreek\AppData\Local\Temp\surefire2821470226701681841\surefirebooter-20240520205101104_3.jar C:\Users\sreek\AppData\Local\Temp\surefire2821470226701681841 2024-05-20T20-51-00_921-jvmRun1 surefire-20240520205101104_1tmp surefire_0-20240520205101104_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sreek\git\Project-Selenium\SupermarketAutomation\target\test-classes;C:\Users\sreek\git\Project-Selenium\SupermarketAutomation\target\classes;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\sreek\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\sreek\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sreek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sreek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sreek\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sreek\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\sreek\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\sreek\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\sreek\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\sreek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\sreek\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\sreek\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sreek\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sreek\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sreek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sreek\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sreek\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sreek\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sreek\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sreek\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sreek\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sreek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sreek\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\sreek\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\sreek\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sreek\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\sreek\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\sreek\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\sreek\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\sreek\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sreek\AppData\Local\Temp\surefire17930037614506862429\surefirebooter-20240520175246480_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sreek\AppData\Local\Temp\surefire2821470226701681841\surefirebooter-20240520205101104_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -50,19 +50,19 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\java\jdk-17.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.9.6\bin;C:\Program Files\java\jdk-17.0.9;C:\Users\sreek\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;C:\Users\sreek\AppData\Roaming\npm;C:\Users\sreek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\java\jdk-17.0.9\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\java\jdk-17.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Automation/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Automation/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.9.6\bin;C:\Program Files\java\jdk-17.0.9;C:\Users\sreek\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Users\sreek\AppData\Roaming\npm;C:\Users\sreek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\java\jdk-17.0.9\bin;C:\maven\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;;C:\Automation\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="manageExpense" classname="com.supermartket.test.LoginTestCase" time="2.224">
+  <testcase name="manageExpense" classname="com.supermartket.test.LoginTestCase" time="0.488">
     <system-out><![CDATA[Executing tests :qa  Envrionment
+Executing tests :qa  Envrionment
+Executing tests :qa  Envrionment
+Executing tests :qa  Envrionment
 https://groceryapp.uniqassosiates.com/admin/login
-Executing tests :qa  Envrionment
-Executing tests :qa  Envrionment
-Executing tests :qa  Envrionment
 https://groceryapp.uniqassosiates.com/admin/login
 https://groceryapp.uniqassosiates.com/admin/login
 https://groceryapp.uniqassosiates.com/admin/login
@@ -74,595 +74,77 @@ ERROR
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 20, 2024 5:52:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2024 8:51:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 20, 2024 5:52:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2024 8:51:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 20, 2024 5:52:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2024 8:51:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 20, 2024 5:52:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-]]></system-err>
-  </testcase>
-  <testcase name="verifyLogin" classname="com.supermartket.test.ManageExpense" time="7.548">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(text(),&apos;Manage Expense&apos;)])[1]&quot;}&#10;  (Session info: chrome=124.0.6367.208)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3848e7dcf14e9defe204e2741b38c67f, findElement {value=(//*[contains(text(),&apos;Manage Expense&apos;)])[1], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59149/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3848e7dcf14e9defe204e2741b38c67f" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Manage Expense')])[1]"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3848e7dcf14e9defe204e2741b38c67f, findElement {value=(//*[contains(text(),'Manage Expense')])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59149/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3848e7dcf14e9defe204e2741b38c67f
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Utils.PageActions.clickElement(PageActions.java:50)
-	at PageObjects.HomePage.navigateToExpenseCategory(HomePage.java:98)
-	at com.supermartket.test.ManageExpense.verifyLogin(ManageExpense.java:17)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
-    <system-out><![CDATA[After method
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-]]></system-out>
-  </testcase>
-  <testcase name="verifyUserIsAbleToCreateMultipleDeliveryBoys[Obsqura20240520_175247, Obsqura20240520_1752471130.1385470859284, mypassword20240520_175247](1)" classname="com.supermartket.test.CreateDeliveryBoy" time="7.762">
-    <system-out><![CDATA[After method
-]]></system-out>
-  </testcase>
-  <testcase name="verifyUserIsAbleToCreateMultipleDeliveryBoys[Obsqura20240520_175247, Niteesha84330.62454958091, mypassword20240520_175247](2)" classname="com.supermartket.test.CreateDeliveryBoy" time="4.514">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=124.0.6367.208)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b6c110a5d751fa5c3bb9faadc1db6049, findElement {value=//*[@name=&apos;username&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b6c110a5d751fa5c3bb9faadc1db6049" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6c110a5d751fa5c3bb9faadc1db6049, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6c110a5d751fa5c3bb9faadc1db6049
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-	at Utils.PageActions.setTextBox(PageActions.java:54)
-	at PageObjects.LoginPage.login(LoginPage.java:36)
-	at com.supermartket.test.CreateDeliveryBoy.verifyUserIsAbleToCreateMultipleDeliveryBoys(CreateDeliveryBoy.java:13)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
-    <system-out><![CDATA[After method
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-]]></system-out>
-  </testcase>
-  <testcase name="verfityCategoryMainPage" classname="com.supermartket.test.categoryMain" time="0.056">
-    <system-out><![CDATA[After method
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-ERROR
-]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 20, 2024 8:51:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="createNews" classname="com.supermartket.test.CreatNewsTest" time="1.573">
-    <failure message="Unable to find element with locator By.xpath: //*[@class=&apos;alert alert-danger alert-dismissible&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at PageObjects.NewsPage.validateNewsIsCreated(NewsPage.java:33)
-	at com.supermartket.test.CreatNewsTest.createNews(CreatNewsTest.java:15)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
-    <system-out><![CDATA[After method
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-ERROR
-]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 20, 2024 5:53:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 20, 2024 5:53:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-]]></system-err>
-  </testcase>
-  <testcase name="verufyUserIsAbleToAddExpense" classname="com.supermartket.test.AddExpense" time="1.431">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=124.0.6367.208)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f27f0ecd03468fd8aed255f888bf9d5c, findElement {value=//*[@name=&apos;username&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59302/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f27f0ecd03468fd8aed255f888bf9d5c" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f27f0ecd03468fd8aed255f888bf9d5c, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59302/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f27f0ecd03468fd8aed255f888bf9d5c
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-	at Utils.PageActions.setTextBox(PageActions.java:54)
-	at PageObjects.LoginPage.login(LoginPage.java:36)
-	at com.supermartket.test.AddExpense.verufyUserIsAbleToAddExpense(AddExpense.java:13)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
-    <system-out><![CDATA[After method
-ERROR
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-ERROR
-ERROR
-]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-]]></system-err>
-  </testcase>
-  <testcase name="verifyManagePage" classname="com.supermartket.test.ManagePage" time="3.676">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=124.0.6367.208)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a688a7652d735158c0b482456ae8633d, findElement {value=//*[@name=&apos;username&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59336/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a688a7652d735158c0b482456ae8633d" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a688a7652d735158c0b482456ae8633d, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59336/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a688a7652d735158c0b482456ae8633d
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-	at Utils.PageActions.setTextBox(PageActions.java:54)
-	at PageObjects.LoginPage.login(LoginPage.java:36)
-	at com.supermartket.test.ManagePage.verifyManagePage(ManagePage.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
-    <system-out><![CDATA[After method
-Executing tests :qa  Envrionment
-https://groceryapp.uniqassosiates.com/admin/login
-]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-]]></system-err>
-  </testcase>
-  <testcase name="managePaymentVerification" classname="com.supermartket.test.ManagePayment" time="0.102">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=124.0.6367.208)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5e9056a094aa4c40c14c73d3efc24afe, findElement {value=//*[@name=&apos;username&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59369/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5e9056a094aa4c40c14c73d3efc24afe" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e9056a094aa4c40c14c73d3efc24afe, findElement {value=//*[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59369/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e9056a094aa4c40c14c73d3efc24afe
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-	at Utils.PageActions.setTextBox(PageActions.java:54)
-	at PageObjects.LoginPage.login(LoginPage.java:36)
-	at com.supermartket.test.ManagePayment.managePaymentVerification(ManagePayment.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
+  <testcase name="verifyUserIsAbleToCreateMultipleDeliveryBoys[Obsqura20240520_205102, Obsqura20240520_205102620.2107980001582, mypassword20240520_205102](1)" classname="com.supermartket.test.CreateDeliveryBoy" time="1.016">
     <system-out><![CDATA[After method
 Executing tests :qa  Envrionment
 https://groceryapp.uniqassosiates.com/admin/login
 ERROR
 ]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2024 8:51:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="verifyMobileSlider" classname="com.supermartket.test.MobileSlider" time="6.831">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[name=&apos;cat_id&apos;]&quot;}&#10;  (Session info: chrome=124.0.6367.208)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [783c27a7c7974994d34b782d562c055c, findElement {value=[name=&apos;cat_id&apos;], using=css selector}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59394/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 783c27a7c7974994d34b782d562c055c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"[name='cat_id']"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [783c27a7c7974994d34b782d562c055c, findElement {value=[name='cat_id'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59394/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 783c27a7c7974994d34b782d562c055c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getTagName(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
-	at Utils.PageActions.handleStaticDropdown(PageActions.java:80)
-	at PageObjects.MobileSliderPage.mobileSlider(MobileSliderPage.java:37)
-	at com.supermartket.test.MobileSlider.verifyMobileSlider(MobileSlider.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
+  <testcase name="verifyUserIsAbleToCreateMultipleDeliveryBoys[Obsqura20240520_205102, Niteesha43616.91818465312, mypassword20240520_205102](2)" classname="com.supermartket.test.CreateDeliveryBoy" time="5.607">
     <system-out><![CDATA[After method
-ERROR
-ERROR
+Executing tests :qa  Envrionment
+https://groceryapp.uniqassosiates.com/admin/login
 ]]></system-out>
-    <system-err><![CDATA[May 20, 2024 5:53:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 20, 2024 8:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="myadminTest" classname="com.supermartket.test.AddUsers" time="9.194">
-    <failure message="Unable to find element with locator By.xpath: //*[@class=&apos;alert alert-danger alert-dismissible&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-Unable to find element with locator By.xpath: //*[@class='alert alert-danger alert-dismissible']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at PageObjects.AdminUsersPage.createAdminUsers(AdminUsersPage.java:36)
-	at com.supermartket.test.AddUsers.myadminTest(AddUsers.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
+  <testcase name="verifyManageSubcategory" classname="supermarketframework.ManageSubcategory" time="2.772">
+    <system-out><![CDATA[After method
+Executing tests :qa  Envrionment
+https://groceryapp.uniqassosiates.com/admin/login
+ERROR
+]]></system-out>
+    <system-err><![CDATA[May 20, 2024 8:51:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+  </testcase>
+  <testcase name="verifyMaanageOffercodePage" classname="supermarketframework.ManageOfferCode" time="4.149">
+    <system-out><![CDATA[After method
+Executing tests :qa  Envrionment
+https://groceryapp.uniqassosiates.com/admin/login
+]]></system-out>
+  </testcase>
+  <testcase name="verifyManageOrderPage" classname="com.supermartket.test.manageOrderPage" time="5.841">
     <system-out><![CDATA[After method
 ]]></system-out>
   </testcase>
-  <testcase name="managePaymentVerification" classname="com.supermartket.test.PushNotification" time="10.307">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=124.0.6367.208)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5924da3428bc5ec721371ebdb7e431ae, findElement {value=[id=&apos;title&apos;], using=css selector}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5924da3428bc5ec721371ebdb7e431ae" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5924da3428bc5ec721371ebdb7e431ae, findElement {value=[id='title'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\sreek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5924da3428bc5ec721371ebdb7e431ae
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.toString(Unknown Source)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
-	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at Utils.PageActions.waitUntilVisible(PageActions.java:68)
-	at Utils.PageActions.setTextBox(PageActions.java:54)
-	at PageObjects.PushNotificationPage.navigateToPushnotification(PushNotificationPage.java:35)
-	at com.supermartket.test.PushNotification.managePaymentVerification(PushNotification.java:13)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-]]></failure>
+  <testcase name="myadminTest" classname="supermarketframework.AddUsers" time="3.001">
+    <system-out><![CDATA[After method
+Executing tests :qa  Envrionment
+https://groceryapp.uniqassosiates.com/admin/login
+ERROR
+ERROR
+ERROR
+×
+Alert!
+User Created Successfully
+]]></system-out>
+    <system-err><![CDATA[May 20, 2024 8:51:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+May 20, 2024 8:51:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+  </testcase>
+  <testcase name="verifyManagePage" classname="com.supermartket.test.ManagePage" time="4.855">
+    <system-out><![CDATA[After method
+]]></system-out>
+  </testcase>
+  <testcase name="manageSliderPage" classname="com.supermartket.test.ManageSliderPage" time="6.925">
     <system-out><![CDATA[After method
 ]]></system-out>
   </testcase>

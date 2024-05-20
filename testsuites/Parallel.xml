@@ -17,31 +17,26 @@
  </classes>
  </test>
     
-       <test name="categoryMain">
+       <test name="ManageOfferCode">
  <classes>
- <class name="com.supermartket.test.categoryMain">
+ <class name="supermarketframework.ManageOfferCode">
  </class>
  </classes>
  </test>
       
-     <test name="ManageExpense">
+     <test name="ManageSubcategory">
  <classes>
-  <class name="com.supermartket.test.ManageExpense">
+  <class name="supermarketframework.ManageSubcategory">
  </class>
  </classes>
  </test>
-      <test name="CreatNewsTest">
+      <test name="manageOrderPage">
  <classes>
- <class name="com.supermartket.test.CreatNewsTest">
+ <class name="com.supermartket.test.manageOrderPage">
  </class>
  </classes>
  </test>
-       <test name="AddExpense">
- <classes>
-  <class name="com.supermartket.test.AddExpense">
- </class>
- </classes>
- </test>
+ 
      <test name="ManagePage">
  <classes>
    <class name="com.supermartket.test.ManagePage">
@@ -49,32 +44,19 @@
  </classes>
  </test>
   
-      <test name="ManagePayment">
+      <test name="AddUsers">
  <classes>
-  <class name="com.supermartket.test.ManagePayment">
+  <class name="supermarketframework.AddUsers">
  </class>
  </classes>
  </test>
-       <test name="MobileSlider">
+       
+ <test name="ManageSliderPage">
  <classes>
-   <class name="com.supermartket.test.MobileSlider">
+      <class name="com.supermartket.test.ManageSliderPage">
  </class>
  </classes>
  </test>
- 
- <test name="AddUsers">
- <classes>
-      <class name="com.supermartket.test.AddUsers">
- </class>
- </classes>
- </test>
-      <test name="PushNotification">
- <classes>
-      <class name="com.supermartket.test.PushNotification">
- </class>
- </classes>
- </test>
-     
-    
+      
 
 </suite> 
