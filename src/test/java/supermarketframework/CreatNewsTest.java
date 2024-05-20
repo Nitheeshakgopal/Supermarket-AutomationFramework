@@ -15,7 +15,7 @@ public class CreatNewsTest extends BaseTest {
 		lp.login();
 		hp.navigateToNewsPage();
 		String creationAlert=news.validateNewsIsCreated();
-		Assert.assertEquals(creationAlert, "News Created Successfull");
+		Assert.assertEquals(creationAlert, "News Created Successfully");
 		
 	
 	

@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-20T20:51:02 AEST" name="Suite" finished-at="2024-05-20T20:51:32 AEST" duration-ms="30894">
+  <suite started-at="2024-05-21T09:37:32 AEST" name="Suite" finished-at="2024-05-21T09:38:25 AEST" duration-ms="53528">
     <groups>
       <group name="sanity">
         <method signature="LoginTestCase.manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" name="manageExpense" class="com.supermartket.test.LoginTestCase"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-05-20T20:51:02 AEST" name="LoginTestCase" finished-at="2024-05-20T20:51:08 AEST" duration-ms="6678">
+    <test started-at="2024-05-21T09:37:32 AEST" name="LoginTestCase" finished-at="2024-05-21T09:37:52 AEST" duration-ms="20129">
       <class name="com.supermartket.test.LoginTestCase">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:06 AEST" duration-ms="4907" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-21T09:37:32 AEST" name="initialization" finished-at="2024-05-21T09:37:46 AEST" duration-ms="14596" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -19,19 +19,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:06 AEST" name="manageExpense" finished-at="2024-05-20T20:51:08 AEST" duration-ms="1500" status="PASS">
+        <test-method signature="manageExpense()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-21T09:37:46 AEST" name="manageExpense" finished-at="2024-05-21T09:37:52 AEST" duration-ms="5103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- manageExpense -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-20T20:51:08 AEST" name="tearDown" finished-at="2024-05-20T20:51:08 AEST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.LoginTestCase@21de60b4]" started-at="2024-05-21T09:37:52 AEST" name="tearDown" finished-at="2024-05-21T09:37:52 AEST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.LoginTestCase -->
     </test> <!-- LoginTestCase -->
-    <test started-at="2024-05-20T20:51:02 AEST" name="ManageSubcategory" finished-at="2024-05-20T20:51:19 AEST" duration-ms="17332">
+    <test started-at="2024-05-21T09:37:32 AEST" name="ManageSubcategory" finished-at="2024-05-21T09:38:05 AEST" duration-ms="33026">
       <class name="supermarketframework.ManageSubcategory">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:05 AEST" duration-ms="3713" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-21T09:37:32 AEST" name="initialization" finished-at="2024-05-21T09:37:48 AEST" duration-ms="16191" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -40,19 +40,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyManageSubcategory()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:05 AEST" name="verifyManageSubcategory" finished-at="2024-05-20T20:51:19 AEST" duration-ms="13319" status="PASS">
+        <test-method signature="verifyManageSubcategory()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-21T09:37:48 AEST" name="verifyManageSubcategory" finished-at="2024-05-21T09:38:04 AEST" duration-ms="16257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyManageSubcategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-20T20:51:19 AEST" name="tearDown" finished-at="2024-05-20T20:51:19 AEST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageSubcategory@9f116cc]" started-at="2024-05-21T09:38:04 AEST" name="tearDown" finished-at="2024-05-21T09:38:05 AEST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- supermarketframework.ManageSubcategory -->
     </test> <!-- ManageSubcategory -->
-    <test started-at="2024-05-20T20:51:02 AEST" name="ManageOfferCode" finished-at="2024-05-20T20:51:20 AEST" duration-ms="18678">
+    <test started-at="2024-05-21T09:37:32 AEST" name="ManageOfferCode" finished-at="2024-05-21T09:38:06 AEST" duration-ms="34424">
       <class name="supermarketframework.ManageOfferCode">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:07 AEST" duration-ms="5048" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-21T09:37:32 AEST" name="initialization" finished-at="2024-05-21T09:37:48 AEST" duration-ms="16316" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -61,19 +61,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyMaanageOffercodePage()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:07 AEST" name="verifyMaanageOffercodePage" finished-at="2024-05-20T20:51:20 AEST" duration-ms="13362" status="PASS">
+        <test-method signature="verifyMaanageOffercodePage()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-21T09:37:48 AEST" name="verifyMaanageOffercodePage" finished-at="2024-05-21T09:38:06 AEST" duration-ms="17689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMaanageOffercodePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-20T20:51:20 AEST" name="tearDown" finished-at="2024-05-20T20:51:20 AEST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageOfferCode@7b9a4292]" started-at="2024-05-21T09:38:06 AEST" name="tearDown" finished-at="2024-05-21T09:38:06 AEST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- supermarketframework.ManageOfferCode -->
     </test> <!-- ManageOfferCode -->
-    <test started-at="2024-05-20T20:51:02 AEST" name="CreateDeliveryBoy" finished-at="2024-05-20T20:51:22 AEST" duration-ms="20248">
+    <test started-at="2024-05-21T09:37:32 AEST" name="CreateDeliveryBoy" finished-at="2024-05-21T09:38:11 AEST" duration-ms="38965">
       <class name="com.supermartket.test.CreateDeliveryBoy">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:02 AEST" name="initialization" finished-at="2024-05-20T20:51:08 AEST" duration-ms="5923" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:37:32 AEST" name="initialization" finished-at="2024-05-21T09:37:48 AEST" duration-ms="16547" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -82,32 +82,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:08 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T20:51:12 AEST" duration-ms="4813" status="PASS">
+        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:37:48 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-21T09:37:58 AEST" duration-ms="9484" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Obsqura20240520_205102]]>
+                <![CDATA[Obsqura20240521_093732]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Obsqura20240520_205102620.2107980001582]]>
+                <![CDATA[Obsqura20240521_09373296360.91663015635]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[mypassword20240520_205102]]>
+                <![CDATA[mypassword20240521_093732]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToCreateMultipleDeliveryBoys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:12 AEST" name="tearDown" finished-at="2024-05-20T20:51:13 AEST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:37:58 AEST" name="tearDown" finished-at="2024-05-21T09:37:58 AEST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:13 AEST" name="initialization" finished-at="2024-05-20T20:51:16 AEST" duration-ms="3285" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:37:58 AEST" name="initialization" finished-at="2024-05-21T09:38:03 AEST" duration-ms="4649" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -116,36 +116,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:16 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-20T20:51:21 AEST" duration-ms="5608" status="PASS">
+        <test-method signature="verifyUserIsAbleToCreateMultipleDeliveryBoys(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:38:03 AEST" name="verifyUserIsAbleToCreateMultipleDeliveryBoys" data-provider="getData" finished-at="2024-05-21T09:38:11 AEST" duration-ms="7610" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Obsqura20240520_205102]]>
+                <![CDATA[Obsqura20240521_093732]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Niteesha43616.91818465312]]>
+                <![CDATA[Niteesha56823.02470701818]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[mypassword20240520_205102]]>
+                <![CDATA[mypassword20240521_093732]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToCreateMultipleDeliveryBoys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-20T20:51:21 AEST" name="tearDown" finished-at="2024-05-20T20:51:22 AEST" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.CreateDeliveryBoy@6b927fb]" started-at="2024-05-21T09:38:11 AEST" name="tearDown" finished-at="2024-05-21T09:38:11 AEST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.CreateDeliveryBoy -->
     </test> <!-- CreateDeliveryBoy -->
-    <test started-at="2024-05-20T20:51:08 AEST" name="manageOrderPage" finished-at="2024-05-20T20:51:22 AEST" duration-ms="13778">
+    <test started-at="2024-05-21T09:37:52 AEST" name="manageOrderPage" finished-at="2024-05-21T09:38:12 AEST" duration-ms="20075">
       <class name="com.supermartket.test.manageOrderPage">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:08 AEST" name="initialization" finished-at="2024-05-20T20:51:11 AEST" duration-ms="3043" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-21T09:37:52 AEST" name="initialization" finished-at="2024-05-21T09:37:57 AEST" duration-ms="5064" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -154,19 +154,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyManageOrderPage()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:11 AEST" name="verifyManageOrderPage" finished-at="2024-05-20T20:51:22 AEST" duration-ms="10381" status="PASS">
+        <test-method signature="verifyManageOrderPage()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-21T09:37:57 AEST" name="verifyManageOrderPage" finished-at="2024-05-21T09:38:12 AEST" duration-ms="14656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyManageOrderPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-20T20:51:22 AEST" name="tearDown" finished-at="2024-05-20T20:51:22 AEST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.manageOrderPage@5b239d7d]" started-at="2024-05-21T09:38:12 AEST" name="tearDown" finished-at="2024-05-21T09:38:12 AEST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.manageOrderPage -->
     </test> <!-- manageOrderPage -->
-    <test started-at="2024-05-20T20:51:20 AEST" name="AddUsers" finished-at="2024-05-20T20:51:28 AEST" duration-ms="8247">
+    <test started-at="2024-05-21T09:38:06 AEST" name="AddUsers" finished-at="2024-05-21T09:38:18 AEST" duration-ms="12124">
       <class name="supermarketframework.AddUsers">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:20 AEST" name="initialization" finished-at="2024-05-20T20:51:24 AEST" duration-ms="3667" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-21T09:38:06 AEST" name="initialization" finished-at="2024-05-21T09:38:11 AEST" duration-ms="4630" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -175,19 +175,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="myadminTest()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:24 AEST" name="myadminTest" finished-at="2024-05-20T20:51:28 AEST" duration-ms="4382" status="PASS">
+        <test-method signature="myadminTest()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-21T09:38:11 AEST" name="myadminTest" finished-at="2024-05-21T09:38:18 AEST" duration-ms="7191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myadminTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-20T20:51:28 AEST" name="tearDown" finished-at="2024-05-20T20:51:28 AEST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.AddUsers@222545dc]" started-at="2024-05-21T09:38:18 AEST" name="tearDown" finished-at="2024-05-21T09:38:18 AEST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- supermarketframework.AddUsers -->
     </test> <!-- AddUsers -->
-    <test started-at="2024-05-20T20:51:19 AEST" name="ManagePage" finished-at="2024-05-20T20:51:30 AEST" duration-ms="11430">
+    <test started-at="2024-05-21T09:38:05 AEST" name="ManagePage" finished-at="2024-05-21T09:38:21 AEST" duration-ms="15753">
       <class name="com.supermartket.test.ManagePage">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:19 AEST" name="initialization" finished-at="2024-05-20T20:51:22 AEST" duration-ms="3476" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-21T09:38:05 AEST" name="initialization" finished-at="2024-05-21T09:38:10 AEST" duration-ms="5019" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -196,19 +196,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="verifyManagePage()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:22 AEST" name="verifyManagePage" finished-at="2024-05-20T20:51:30 AEST" duration-ms="7770" status="PASS">
+        <test-method signature="verifyManagePage()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-21T09:38:10 AEST" name="verifyManagePage" finished-at="2024-05-21T09:38:20 AEST" duration-ms="10401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyManagePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-20T20:51:30 AEST" name="tearDown" finished-at="2024-05-20T20:51:30 AEST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManagePage@37afeb11]" started-at="2024-05-21T09:38:20 AEST" name="tearDown" finished-at="2024-05-21T09:38:21 AEST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.supermartket.test.ManagePage -->
     </test> <!-- ManagePage -->
-    <test started-at="2024-05-20T20:51:22 AEST" name="ManageSliderPage" finished-at="2024-05-20T20:51:32 AEST" duration-ms="10623">
+    <test started-at="2024-05-21T09:38:11 AEST" name="ManageSliderPage" finished-at="2024-05-21T09:38:25 AEST" duration-ms="14539">
       <class name="com.supermartket.test.ManageSliderPage">
-        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:22 AEST" name="initialization" finished-at="2024-05-20T20:51:25 AEST" duration-ms="3465" status="PASS">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-21T09:38:11 AEST" name="initialization" finished-at="2024-05-21T09:38:15 AEST" duration-ms="4497" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -217,11 +217,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="manageSliderPage()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:25 AEST" name="manageSliderPage" finished-at="2024-05-20T20:51:32 AEST" duration-ms="6925" status="PASS">
+        <test-method signature="manageSliderPage()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-21T09:38:15 AEST" name="manageSliderPage" finished-at="2024-05-21T09:38:25 AEST" duration-ms="9670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- manageSliderPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-20T20:51:32 AEST" name="tearDown" finished-at="2024-05-20T20:51:32 AEST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.supermartket.test.ManageSliderPage@436813f3]" started-at="2024-05-21T09:38:25 AEST" name="tearDown" finished-at="2024-05-21T09:38:25 AEST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
