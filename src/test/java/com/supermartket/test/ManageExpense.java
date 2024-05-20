@@ -30,7 +30,7 @@ public class ManageExpense extends BaseTest{
 	     System.out.println(actualCreationAlertMsg);
 	    
 	     //Assertion for alert creation
-	     Assert.assertEquals(actualCreationAlertMsg, "Expense Category Created Successful");
+	     Assert.assertEquals(actualCreationAlertMsg, "Expense Category Created Successfully");
 	     
 	     
 	     ecp.deleteExpense();
